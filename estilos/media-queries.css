@@ -21,16 +21,32 @@
         display: inline-block;
     }
 
+    menu#itens {
+        margin-left: 20px;
+    }
+
 }
 
 /* ESTILO PARA DESKTOP */
 
-@media screen and (min-width: 993px) and (max-width: 1200px) {
+@media screen and (min-width: 992px) {
+
+    i#burguer {
+        display: none;
+    }
+
+    menu#itens {
+        display: block;
+    }
+
+    menu#itens ul li {
+        display: inline-block;
+        width: 160px;
+    }
+
+    menu#itens {
+        text-align: center;
+    }
     
-}
-
-/* ESTILO PARA PANTALLAS GRANDES */
-
-@media screen and (min-width: 1200px) {
     
 }
