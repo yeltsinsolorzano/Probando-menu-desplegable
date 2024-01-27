@@ -1,0 +1,36 @@
+/* ESTILOS PARA DISTINTOS TAMANOS DE SCREEN */
+
+/* ESTILO PARA IMPRESION */
+
+@media print {
+
+}
+
+/* ESTILO PARA TABLET */
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+    i#burguer {
+        display: none;
+    }
+
+    menu#itens {
+        display: block;
+    }
+
+    menu#itens ul li {
+        display: inline-block;
+    }
+
+}
+
+/* ESTILO PARA DESKTOP */
+
+@media screen and (min-width: 993px) and (max-width: 1200px) {
+    
+}
+
+/* ESTILO PARA PANTALLAS GRANDES */
+
+@media screen and (min-width: 1200px) {
+    
+}
